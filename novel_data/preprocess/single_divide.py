@@ -24,7 +24,7 @@ except ImportError as e:
 
 # OpenAI API 配置
 try:
-    client = OpenAI(api_key="sk-56fd6ba8b00444f9b9ecb2d8e450590c", base_url="https://api.deepseek.com")
+    client = OpenAI(api_key="YOUR_API_KEY", base_url="https://api.deepseek.com")
 except Exception as e:
     logging.error(f"初始化 OpenAI 客户端失败: {e}")
     raise
